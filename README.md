@@ -1,27 +1,53 @@
-# theory
+# Theory
 
-1. What is the difference between exception handling and logging?
-2. How can you implement custom exception classes in Python?
-3. What are the benefits of using logging over print statements?
-4. How do you configure logging levels in Python?
-5. What is the purpose of using a try-except block?
-6. How can you catch multiple exceptions in one block?
-7. What is a finally clause, and when is it used?
-8. How do you log exceptions in Python?
-9. Can you use logging in a multithreaded application?
-10. What is the role of loggers, handlers, and formatters in logging?
-11. How can you log to a file instead of the console?
-12. What are some common logging best practices?
-13. How do you prevent sensitive information from being logged?
-14. What is the difference between a memory leak and memory bloat?
-15. How can you detect memory leaks in your application?
-16. What tools can be used for memory profiling?
-17. What is garbage collection, and how does it work in Python?
-18. How do you use weak references in memory management?
-19. What are the advantages of using context managers for resource management?
-20. How can you optimize memory usage in large applications?
-21. What is the purpose of the __del__ method in Python?
-22. How do you handle large data objects efficiently in memory?
-23. What is the use of the gc module in Python?
-24. How can you track memory usage over time in an application?
-25. What strategies can you implement to improve memory performance?
+1. What is the difference between interpreted and compiled languages?
+2. What is exception handling in Python?
+3. What is the purpose of the finally block in exception handling?
+4. What is logging in Python?
+5. What is the significance of the __del__ method in Python?
+6. What is the difference between import and from ... import in Python?
+7. How can you handle multiple exceptions in Python?
+8. What is the purpose of the with statement when handling files in Python?
+9. What is the difference between multithreading and multiprocessing?
+10. What are the advantages of using logging in a program?
+11. What is memory management in Python?
+12. What are the basic steps involved in exception handling in Python?
+13. Why is memory management important in Python?
+14. What is the role of try and except in exception handling?
+15. How does Python's garbage collection system work?
+16. What is the purpose of the else block in exception handling?
+17. What are the common logging levels in Python?
+18. What is the difference between os.fork() and multiprocessing in Python?
+19. What is the importance of closing a file in Python?
+20. What is the difference between file.read() and file.readline() in Python?
+21. What is the logging module in Python used for?
+22. What is the os module in Python used for in file handling?
+23. What are the challenges associated with memory management in Python?
+24.  How do you raise an exception manually in Python?
+25.   why is it important to use multithreading in certain applications?
+
+# Practical Questions
+1. How can you open a file for writing in Python and write a string to it?
+2. Write a Python program to read the contents of a file and print each lineF
+3. How would you handle a case where the file doesn't exist while trying to open it for reading
+4. Write a Python script that reads from one file and writes its content to another fileF
+5. How would you catch and handle division by zero error in Python
+6. write a Python program that logs an error message to a log file when a division by zero exception occursF
+7. How do you log information at different levels (INFO, ERROR, WARNING) in Python using the logging module
+8. Write a program to handle a file opening error using exception handlingF
+9. How can you read a file line by line and store its content in a list in Python
+10. How can you append data to an existing file in Python
+11. Write a Python program that uses a try-except block to handle an error when attempting to access a
+dictionary key that doesn't existF
+12. Write a program that demonstrates using multiple except blocks to handle different types of exceptionsF
+13. How would you check if a file exists before attempting to read it in Python
+14. Write a program that uses the logging module to log both informational and error messagesF
+15. Write a Python program that prints the content of a file and handles the case when the file is emptyF
+16. Demonstrate how to use memory profiling to check the memory usage of a small programF
+17. Write a Python program to create and write a list of numbers to a file, one number per lineF
+18. How would you implement a basic logging setup that logs to a file with rotation after 1MB
+19. Write a program that handles both IndexError and KeyError using a try-except blockF
+20. How would you open a file and read its contents using a context manager in Python
+21. Write a Python program that reads a file and prints the number of occurrences of a specific wordF
+22. How can you check if a file is empty before attempting to read its contents
+23. Write a Python program that writes to a log file when an error occurs during file handling
